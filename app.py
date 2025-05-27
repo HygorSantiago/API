@@ -11,7 +11,7 @@ class Print(Resource):
 api.add_resource(Print,
                  '/print')
 
-# if __name__ == '__main__':
-#     app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
     
     
